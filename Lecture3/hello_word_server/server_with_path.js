@@ -20,7 +20,7 @@ function simpleHTTPResponder(req, res) {
             name = query["name"];
         }
 
-        res.end(" Greetings "+name);
+        res.end("Greetings "+name);
     }
     //all other paths
     else {
